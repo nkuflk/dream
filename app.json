@@ -1,12 +1,29 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/account/account",
     "pages/logs/logs"
   ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/icons/tabs_index.png",
+        "selectedIconPath": "images/icons/tabs_index_select.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/account/account",
+        "iconPath": "images/icons/tabs_account.png",
+        "selectedIconPath": "images/icons/tabs_account_select.png",
+        "text": "账户"
+      }
+    ]
+  },
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "Dream",
     "navigationBarTextStyle":"black"
   }
 }
